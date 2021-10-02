@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+import Logo from "../images/logo_oh.png";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 export function Header() {
@@ -7,7 +8,17 @@ export function Header() {
     <>
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
   <Container>
-  <Navbar.Brand href="#home">Wow Content</Navbar.Brand>
+  <Navbar.Brand href="#home">
+        <img
+          alt="logo oh! presentaciones"
+          src={Logo}
+          width="60"
+          height="60"
+          className="d-inline-block align-top"
+        />{'  '}
+      
+      </Navbar.Brand>
+  <h2>Presentaciones</h2>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
