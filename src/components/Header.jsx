@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../images/logo_oh.png";
-import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, NavDropdown, Ratio } from "react-bootstrap";
 
 export function Header() {
   return (
-    <>
+<>
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top">
   <Container>
   <Navbar.Brand href="#home">
@@ -22,11 +22,11 @@ export function Header() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto section">
       <Nav.Link href="#features">Home</Nav.Link>
-      <Nav.Link href="#features">¿Por qué?</Nav.Link>
+      {/* <Nav.Link href="#features">¿Por qué?</Nav.Link> */}
       <NavDropdown title="¿Qué hacemos?" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Presentaciones</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Infografías</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Vídeo presetaciones</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Vídeos presentación</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Guías corporativas</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Material formativo</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Contenidos RRSS</NavDropdown.Item>
@@ -41,7 +41,11 @@ export function Header() {
   </Container>
 </Navbar>
 
-<div ><div ><iframe frameBorder="0"  type="text/html" allowscriptaccess="always" allowFullScreen={true} allow="autoplay" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style={{ width: '100%', height: '100%', marginTop: '86px'}}>
+  <Ratio aspectRatio="16x9">
+  <iframe frameBorder="0" src="https://view.genial.ly/6159ab4c7deef00e1f33dbd9" type="text/html" allowscriptaccess="always" allowFullScreen={true} scrolling="yes" allownetworking="all"/>
+  </Ratio>
+</div>
 
 </>
   );
