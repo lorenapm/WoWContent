@@ -39,3 +39,8 @@ body {
   text-align: center;
   margin-top: 40px;
 }
+.copyright-box {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
