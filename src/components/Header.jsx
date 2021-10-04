@@ -41,9 +41,9 @@ export function Header() {
   </Container>
 </Navbar>
 
-<div style={{ width: '100%', height: '100%', marginTop: '86px'}}>
+<div style={{ marginTop: '86px'}}>
   <Ratio aspectRatio="16x9">
-  <iframe frameBorder="0" src="https://view.genial.ly/6159ab4c7deef00e1f33dbd9" type="text/html" allowscriptaccess="always" allowFullScreen={true} scrolling="yes" allownetworking="all"/>
+  <iframe frameBorder="0" src="https://view.genial.ly/6159ab4c7deef00e1f33dbd9" type="text/html" allowFullScreen={true}/>
   </Ratio>
 </div>
 

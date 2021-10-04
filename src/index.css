@@ -2,11 +2,12 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #636363;
+  margin-top: 86px;
 }
 .title {
-  margin-right: 3rem;
+  margin-right: 1rem;
   padding-top: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .section {
   font-size: 1.2rem;
@@ -14,9 +15,7 @@ body {
 .nav-link {
   padding-right: 5rem;
 }
-.hero {
-  margin-top: 86px;
-}
+
 .row {
   margin-left: 30px;
   margin-right: 30px;
@@ -36,5 +35,5 @@ body {
 }
 .title1 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
