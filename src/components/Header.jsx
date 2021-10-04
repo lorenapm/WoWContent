@@ -32,10 +32,10 @@ export function Header() {
         <NavDropdown.Item href="#action/3.3">Contenidos RRSS</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Imagen de marca</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#pricing" className="section">Portfolio</Nav.Link>
+      <Nav.Link href="#portfolio" className="section">Portfolio</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets" className="section">Contacto</Nav.Link>
+      <Nav.Link href="#contacto" className="section">Contacto</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

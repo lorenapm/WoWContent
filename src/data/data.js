@@ -1,3 +1,5 @@
+import React from "react";
+
 export const data = [
   {
     image: "../images/metrics-blue.png",
