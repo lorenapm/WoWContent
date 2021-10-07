@@ -1,10 +1,9 @@
 import React from "react";
 
-
 export const Footer = () => {
     return (
 <>
-    <div className="text-center" bg="light">
+    <div className="text-center" bg="light" id="contacto">
       <div className="row mt-4 dark-grey-text">
         <div className="col-md-4 col-lg-4 col-xl-4 mb-4">
           <h6 className="text-uppercase font-weight-bold"><strong>Oh! Presentaciones</strong></h6>
@@ -23,7 +22,8 @@ export const Footer = () => {
             <a className="dark-grey-text" href="https://github.com/lorenapm" target="_blank"> Front End Dev</a>
           </p>
           <p>
-            <a className="dark-grey-text" href="#hero">Home</a>
+            <i className="fas fa-home mr-3"></i>
+            <a className="dark-grey-text" href="#hero"> Home</a>
           </p>
   
         </div>
