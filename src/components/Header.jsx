@@ -6,7 +6,7 @@ import { Container, Navbar, Nav, NavDropdown, Ratio } from "react-bootstrap";
 export function Header() {
   return (
 <>
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top">
+  <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="fixed-top" >
   <Container>
   <Navbar.Brand href="#home">
         <img
@@ -22,7 +22,7 @@ export function Header() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto section">
-      <Nav.Link href="#features">Home</Nav.Link>
+      {/* <Nav.Link href="#features">Home</Nav.Link> */}
       {/* <Nav.Link href="#features">¿Por qué?</Nav.Link> */}
       <NavDropdown title="¿Qué hacemos?" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Presentaciones</NavDropdown.Item>
@@ -42,7 +42,7 @@ export function Header() {
   </Container>
 </Navbar>
 
-<div style={{ marginTop: '86px'}}>
+<div style={{ marginTop: '86px'}} id="hero">
   <Ratio aspectRatio="16x9">
   <iframe frameBorder="0" src="https://view.genial.ly/6159ab4c7deef00e1f33dbd9" type="text/html" allowFullScreen={true}/>
   </Ratio>
