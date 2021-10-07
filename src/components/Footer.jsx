@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
 <>
     <div className="text-center" bg="light" id="contacto">
-      <div className="row mt-4 dark-grey-text">
+      <div className="box-contact row mt-4 dark-grey-text" >
         <div className="col-md-4 col-lg-4 col-xl-4 mb-4">
           <h6 className="text-uppercase font-weight-bold"><strong>Oh! Presentaciones</strong></h6>
           <hr className="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style={{width: 60}}/>
@@ -21,10 +21,10 @@ export const Footer = () => {
           <i className="fab fa-github-square mr-7"></i> 
             <a className="dark-grey-text" href="https://github.com/lorenapm" target="_blank"> Front End Dev</a>
           </p>
-          <p>
+          {/* <p>
             <i className="fas fa-home mr-3"></i>
             <a className="dark-grey-text" href="#hero"> Home</a>
-          </p>
+          </p> */}
   
         </div>
   
