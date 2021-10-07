@@ -31,7 +31,6 @@ body {
 }
 .card {
   max-width: 400px;
-  margin-top: 30px;
   margin-left: 5px;
   display: flex;
   text-align: center;
@@ -40,6 +39,12 @@ body {
 .title1 {
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 30px;
+}
+.box-portfolio {
+  width: 100%;
+  margin: 30px 0 30px 0;
+  margin: 0;
 }
 .box-contact {
   padding: 30px 0 30px 30px;
