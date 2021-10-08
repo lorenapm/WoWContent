@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Proyecto "en construcción" de una web sencilla utilizando React + Bootstrap 5 que, además, es un emprendimiento profesional. Así que si alguien necesita una presentación o contenido wow...¡no dejes de visitar este enace provisional: https://oh-presentaciones.herokuapp.com/ ¡Gracias!
+
+<img width="1280" alt="Oh-presentaciones" src="https://user-images.githubusercontent.com/81964101/136549250-78e4ff17-dc0c-41a7-8af5-fe0240bc870f.png">
 
 ## Available Scripts
 
