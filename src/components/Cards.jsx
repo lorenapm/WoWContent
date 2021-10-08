@@ -27,7 +27,7 @@ export function Cards() {
         <Card.Body>
           <Card.Title>Contenido Oh!</Card.Title>
           <Card.Text>
-          Presentaciones, infografías, píldoras formativas, guías corporativas, memorias, post para redes sociales... Somos especialistas en crear contenido de calidad online y offline. 
+          Presentaciones, infografías, píldoras formativas, guías corporativas, memorias, posts, microsites... Somos especialistas en crear contenido de calidad online y offline. 
           </Card.Text>
         </Card.Body>
       </Card>
